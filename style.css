@@ -19,6 +19,10 @@ color: #FFFFFF;
    
 }
 
+#anim{
+    margin-top: 30px;
+}
+
 .card-img-top{
     width: 50%;
     margin-left:80px ;
@@ -44,16 +48,15 @@ color: #FFFFFF;
     background: transparent;
 }
 
-.btn{
+.btn {
 
    background: transparent linear-gradient(254deg, #7184FD 0%, #3F7AF0 70%, #4F37EE 100%) 0% 0% no-repeat padding-box;
    border-radius: 10px;
    color: white;
-    
-    
-    
-    
-   
+ }
+ 
+.btn:hover {
+    background-color: transparent;
     
 } 
 
@@ -755,10 +758,10 @@ opacity: 1;
     background: #2D83EE 0% 0% no-repeat padding-box;
 border-radius: 30px;
 opacity: 1;
-width: 1000px;
+width: 1050px;
 height: 500px;
 padding: 100px;
-margin-left: 200px;
+margin-left: 170px;
 margin-top: 100px;
 margin-bottom: 100px; 
 }
@@ -783,10 +786,14 @@ margin-left: 20px;
 .buttns{
     background: #FFFFFF 0% 0% no-repeat padding-box;
 box-shadow: 0px 3px 9px #39140014;
-border-radius: 6px;
+border-radius: 5px;
+border: transparent;
 opacity: 1;
 margin-top: 40px;
 margin-left: 20px;
+font-size: medium;
+width: 30%;
+height: 10%;
 }
 
 
