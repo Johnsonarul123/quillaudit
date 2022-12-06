@@ -207,6 +207,8 @@ color: #FFFFFF;
   margin-left: 0% !important;
 }
 
+
+
 /* security section starts */
 
 #security h5{
@@ -430,10 +432,12 @@ margin-top: 30px;
 /* feature starts*/
 
 .wrapper {
-    display: grid;
+    display: grid ;
+    grid-row: 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 200px;
     background-color: #fff;
+    box-sizing: border-box;
     
   }
 
@@ -770,6 +774,8 @@ opacity: 1;
 
      /* join hands starts*/
 
+     
+
 
 .joinhands{
     background: #2D83EE 0% 0% no-repeat padding-box;
@@ -883,3 +889,27 @@ opacity: 1;
 
 /* testimonial */
 
+@media (max-width:992px) {
+    .joinhands {
+        padding: 10%;
+        margin: auto;
+      }
+      
+      .joinhands h2{
+        margin: none;
+      }
+
+      .handsimg{
+        display: none;
+      }
+
+      
+}
+
+@media (max-width:992px){
+    .faqr1{
+        border: none;
+        background: transparent;
+        
+      }
+}
