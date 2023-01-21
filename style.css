@@ -6,6 +6,7 @@
     
   }
 
+
 body{
     width: 100% !important;
     overflow-x: hidden !important;
@@ -17,7 +18,7 @@ body{
 
 #hot{
 height:auto;
-width:fit-content;
+
 
 background: #15306F 0% 0% no-repeat padding-box;
 mix-blend-mode: multiply;
@@ -36,7 +37,7 @@ color: #FFFFFF;
 
 .card-img-top{
     width: 50%;
-    margin-left:80px ;
+    
     margin-top: 30px;
 }
 
@@ -106,6 +107,7 @@ color: #FFFFFF;
 }
 .s-1{
     margin: 30px;
+    
 }
 
 .s-2{
@@ -135,6 +137,7 @@ color: #FFFFFF;
 #pathfund{
     list-style: none;
     margin-bottom: 30px;
+   
 }
 .second-header h5{
     color: #2D83EE;
@@ -948,6 +951,15 @@ opacity: 1;
       }
     
       .root{
-        width: 50v;
+      
+        overflow-x: hidden;
     }
+    
+
+   
+    
 }
+
+
+
+
